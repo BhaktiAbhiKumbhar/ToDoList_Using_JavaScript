@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,th,tr,td{
+            border: 2px solid gray;
+            border-collapse: collapse;
+        }
+    </style>
+    <title>ToDoList</title>
+</head>
+<body>
+    <script src="/todoList.js"></script>
+    <label for="fName">First Name</label>
+    <input type="text" id="fName" placeholder="Enter Your First Name" >
+    <label for="lName">Last Name</label>
+    <input type="text" id="lName" placeholder="Enter Your Last Name" >
+
+    <button onclick="OnSubmit()">Submit</button>
+    <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        
+    <tbody id="content">
+        <!-- <tr>
+            <td id="srNo">0</td>
+            <td id="firstName" ></td>
+            <td id="lastName" ></td>
+            <td>
+                <button>Remove</button>
+                <button>Update</button>
+            </td>
+        </tr> -->
+    </tbody>
+    </table>
+
+</body>
+</html>
